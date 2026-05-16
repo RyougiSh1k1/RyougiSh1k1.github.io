@@ -40,8 +40,9 @@ body.sticky-bottom-footer {
   }
 }
 
-.home-section-title {
-  font-family: Georgia, "Times New Roman", serif;
+.home-section-title,
+.home-section-title * {
+  font-family: Georgia, "Times New Roman", "Noto Serif CJK SC", "Noto Serif SC", "Songti SC", SimSun, serif;
   font-weight: 600;
 }
 
