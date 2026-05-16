@@ -253,6 +253,19 @@ ul.task-list input[type="checkbox"] {
             height: 1.55rem;
           }
         }
+
+        i::before {
+          color: var(--global-text-color);
+          transition-property: all 0.2s ease-in-out;
+        }
+
+        &:hover {
+          text-decoration: none;
+
+          i::before {
+            color: var(--global-theme-color);
+          }
+        }
       }
     }
 
