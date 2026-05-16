@@ -2,8 +2,9 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter home-section-title" href="{{ site.baseurl }}/">
+      <a class="navbar-brand title font-weight-lighter home-section-title" href="{{ site.baseurl }}/">
+        <img class="navbar-logo" src="{{ '/assets/img/rhine.svg' | relative_url | bust_file_cache }}" alt="" aria-hidden="true">
+        <span class="navbar-brand-text">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -19,8 +20,9 @@
           {% else %}
             {{- site.title -}}
           {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
+        </span>
+      </a>
+      {% if page.permalink == '/' and site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% social_links %}</div>
       {% endif %}
