@@ -59,20 +59,15 @@
     align-items: center;
     color: var(--global-text-color);
     display: flex;
-    gap: 0.5rem;
     min-width: 0;
   }
 
   .navbar-logo {
     display: block;
     flex: 0 0 auto;
-    height: 1.55rem;
+    height: 1.15rem;
     object-fit: contain;
-    width: 2.7rem;
-  }
-
-  .navbar-brand-text {
-    min-width: 0;
+    width: auto;
   }
 
   .navbar-nav .nav-item .nav-link {
