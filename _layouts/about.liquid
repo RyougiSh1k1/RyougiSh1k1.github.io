@@ -95,17 +95,13 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2 class="home-section-title">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
+      <h2 class="home-section-title">News</h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2 class="home-section-title">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h2>
+      <h2 class="home-section-title">Selected Publications</h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
