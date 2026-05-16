@@ -215,6 +215,54 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.profile {
+  .profile-social {
+    clear: both;
+    margin-top: 0.75rem;
+    max-width: 100%;
+
+    .contact-icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.55rem;
+      justify-content: center;
+      max-width: 100%;
+      font-size: clamp(1.35rem, 8vw, 1.75rem);
+      line-height: 1;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.85rem;
+        height: 1.85rem;
+
+        img {
+          width: 1.45rem;
+          height: 1.45rem;
+          margin-bottom: 0;
+        }
+
+        svg {
+          width: 1.55rem;
+          height: 1.55rem;
+          margin-bottom: 0;
+
+          image {
+            width: 1.55rem;
+            height: 1.55rem;
+          }
+        }
+      }
+    }
+
+    .contact-note {
+      margin-top: 0.35rem;
+      overflow-wrap: anywhere;
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

@@ -35,6 +35,46 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        {% if page.social %}
+          <div class="social profile-social">
+            <div class="contact-icons">
+              {% if site.data.socials.cv_pdf %}
+                <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" aria-label="CV">
+                  <i class="fa-solid fa-file-pdf"></i>
+                </a>
+              {% endif %}
+              {% if site.data.socials.email %}
+                <a href="mailto:{{ site.data.socials.email | encode_email }}" title="Email" aria-label="Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              {% endif %}
+              {% if site.data.socials.scholar_userid %}
+                <a
+                  href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+                  title="Google Scholar"
+                  aria-label="Google Scholar"
+                  rel="external nofollow noopener"
+                  target="_blank"
+                >
+                  <i class="si si-google-scholar"></i>
+                </a>
+              {% endif %}
+              {% if site.data.socials.orcid_id %}
+                <a
+                  href="https://orcid.org/{{ site.data.socials.orcid_id }}"
+                  title="ORCID"
+                  aria-label="ORCID"
+                  rel="external nofollow noopener"
+                  target="_blank"
+                >
+                  <i class="si si-orcid"></i>
+                </a>
+              {% endif %}
+            </div>
+
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -54,15 +94,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
