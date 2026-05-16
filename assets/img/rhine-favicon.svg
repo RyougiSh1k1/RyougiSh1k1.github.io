@@ -1,19 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 165" width="100%" height="100%" role="img" aria-label="Rhine logo">
   <path
-    d="M 21 85
-       C 21 51 43 30 76 32
-       C 96 33 111 49 130 68
-       L 144 82
-       L 158 68
-       C 177 49 193 33 213 32
-       C 246 30 268 51 268 85
-       C 268 119 246 137 215 136
-       C 194 135 178 119 158 100
-       L 144 86
-       L 130 100
-       C 110 119 94 135 73 136
-       C 42 137 21 119 21 85
-       Z"
+    d="M 156 94
+       C 174 112 190 127 213 128
+       C 246 129 267 111 267 84
+       C 267 50 246 30 214 31
+       C 203 31 194 34 185 39"
     fill="none"
     stroke="#000"
     stroke-width="25"
@@ -22,10 +13,24 @@
   />
 
   <path
-    d="M 128 67 L 144 82 L 160 66"
+    d="M 132 70
+       C 113 52 96 36 76 35
+       C 43 33 21 52 21 84
+       C 21 115 43 133 74 131
+       C 96 130 113 113 132 96
+       L 156 72"
     fill="none"
     stroke="#000"
-    stroke-width="18"
+    stroke-width="25"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M 132 70 L 156 94"
+    fill="none"
+    stroke="#000"
+    stroke-width="25"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
