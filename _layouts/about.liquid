@@ -70,6 +70,17 @@ layout: default
                   <i class="si si-orcid"></i>
                 </a>
               {% endif %}
+              {% if site.data.socials.github_username %}
+                <a
+                  href="https://github.com/{{ site.data.socials.github_username }}"
+                  title="GitHub"
+                  aria-label="GitHub"
+                  rel="external nofollow noopener"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              {% endif %}
             </div>
 
             {% if site.contact_note %}
