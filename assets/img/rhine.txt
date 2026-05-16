@@ -1,0 +1,25 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#11161B"/>
+
+  <g transform="translate(100, 30)">
+    <!-- Outer Inverted Drop / Leaf Ring (Left) -->
+    <path d="M 230,170 C 150,90 70,160 70,240 C 70,320 150,390 230,310 L 370,170 C 450,90 530,160 530,240 C 530,320 450,390 370,310 Z" 
+          fill="none" stroke="#25A1A4" stroke-width="24" stroke-linejoin="round"/>
+
+    <!-- Inner Offset Ring (Right) -->
+    <path d="M 230,190 C 170,130 110,180 110,240 C 110,300 170,350 230,290 L 370,190 C 430,130 490,180 490,240 C 490,300 430,350 370,290 Z" 
+          fill="none" stroke="#00E5FF" stroke-width="10" stroke-linejoin="round" opacity="0.8"/>
+
+    <!-- Central Focal Core -->
+    <circle cx="230" cy="240" r="32" fill="#FFFFFF"/>
+    
+    <!-- Decorative Tech Accent Lines -->
+    <line x1="60" y1="240" x2="35" y2="240" stroke="#25A1A4" stroke-width="6" stroke-linecap="round"/>
+    <line x1="540" y1="240" x2="565" y2="240" stroke="#25A1A4" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="20" cy="240" r="4" fill="#00E5FF"/>
+
+    <!-- Rhine Lab Typography -->
+    <text x="300" y="415" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="42" fill="#FFFFFF" letter-spacing="12">RHINE LAB</text>
+  </g>
+</svg>
