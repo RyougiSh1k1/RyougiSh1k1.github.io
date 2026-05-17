@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publication
-description: Publications by categories in sequential year order.
+description: Publications organized in the order of the year sequence.
 nav: true
 nav_order: 1
 ---
