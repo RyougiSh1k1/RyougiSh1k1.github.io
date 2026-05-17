@@ -17,4 +17,36 @@
       text-align: left;
     }
   }
+
+  .service-role {
+    display: block;
+  }
+
+  .service-role-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .service-records {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+  }
+
+  .service-record {
+    display: inline-flex;
+    gap: 0.35rem;
+    align-items: center;
+  }
+
+  abbr.badge {
+    display: inline-block;
+    background-color: var(--global-theme-color);
+    color: var(--global-card-bg-color) !important;
+  }
+
+  .service-year {
+    color: var(--global-text-color);
+  }
 }
