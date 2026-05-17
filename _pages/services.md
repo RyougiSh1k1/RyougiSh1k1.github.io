@@ -22,7 +22,7 @@ reviewer_conferences:
     <h2>Conference</h2>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item service-role">
-        <div class="service-role-title">Reviewer</div>
+        <div class="service-role-title">- Reviewer</div>
         <ul class="service-records">
           {% for conference in page.reviewer_conferences %}
             <li class="service-record">
