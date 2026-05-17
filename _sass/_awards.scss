@@ -1,0 +1,30 @@
+/*******************************************************************************
+ * Awards
+ ******************************************************************************/
+
+.awards {
+  margin-top: 2rem;
+
+  .award-conference {
+    display: block;
+  }
+
+  abbr.badge {
+    display: inline-block;
+    background-color: var(--global-theme-color);
+    color: var(--global-card-bg-color) !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .award-records {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+  }
+
+  .award-record {
+    color: var(--global-text-color);
+  }
+}
