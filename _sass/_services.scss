@@ -1,0 +1,20 @@
+/*******************************************************************************
+ * Services
+ ******************************************************************************/
+
+.services {
+  margin-top: 2rem;
+
+  .service-section {
+    margin-top: 2rem;
+
+    h2 {
+      color: var(--global-divider-color);
+      border-top: 1px solid var(--global-divider-color);
+      padding-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      text-align: right;
+    }
+  }
+}

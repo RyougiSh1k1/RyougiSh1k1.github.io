@@ -6,4 +6,16 @@ nav: true
 nav_order: 4
 ---
 
-Service information will be added here.
+<div class="services">
+  <section class="service-section">
+    <h2>Conference</h2>
+  </section>
+
+  <section class="service-section">
+    <h2>Journal</h2>
+  </section>
+
+  <section class="service-section">
+    <h2>Other</h2>
+  </section>
+</div>
