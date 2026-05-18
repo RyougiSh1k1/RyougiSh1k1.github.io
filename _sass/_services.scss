@@ -42,8 +42,10 @@
 
   abbr.badge {
     display: inline-block;
+    width: 7.5rem;
     background-color: var(--global-theme-color);
     color: var(--global-card-bg-color) !important;
+    text-align: center;
   }
 
   .service-year {
