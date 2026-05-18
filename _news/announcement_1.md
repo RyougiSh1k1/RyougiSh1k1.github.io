@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on **Federated Continual Learning**, _"GFedCL: Graph-Based Federated Continual Learning with Spatial and Temporal Awareness"_, **is accepted at _ICML_**.
+**Our work on Federated Continual Learning,** _"GFedCL: Graph-Based Federated Continual Learning with Spatial and Temporal Awareness"_ **, is accepted at _ICML_**.
