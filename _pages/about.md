@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Email: qyu13 [at] stevens [dot] edu
+subtitle: '<span style="color: #cada42; font-weight: 700;">Email: qyu13 [at] stevens [dot] edu</span>'
 
 profile:
   align: right
