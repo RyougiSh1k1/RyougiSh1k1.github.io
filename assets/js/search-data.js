@@ -419,16 +419,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-work-on-federated-continual-learning-gfedcl-graph-based-federated-continual-learning-with-spatial-and-temporal-awareness-is-accepted-at-icml",
+          title: 'Our work on Federated Continual Learning, “GFedCL: Graph-Based Federated Continual Learning with Spatial...',
           description: "",
           section: "News",},{id: "research-project-1",
           title: 'project 1',
