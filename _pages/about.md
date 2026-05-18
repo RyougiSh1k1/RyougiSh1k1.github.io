@@ -26,6 +26,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi there! I am a third-year Ph.D. student in the [Department of Electrical and Computer Engineering](https://www.stevens.edu/school-engineering-science/departments/electrical-computer-engineering), at [Stevens Institute of Technology](https://www.stevens.edu/), advised by Dr. [Hao Wang](https://intellisys.haow.us/haowang/).
 
-I received my Master's Degree in Computer Science at [Rutgers University](https://www.rutgers.edu/) and my Bachelor's Degree in Computer Sciecne at [Univeristy of Liverpool](https://www.liverpool.ac.uk/), advised by Dr. [Igot Potatpov](https://scholar.google.com/citations?user=zdGjSYAAAAAJ&hl=en) and Dr. [Piotr Krysta](https://scholar.google.com/citations?user=Pe39BdUAAAAJ&hl=en).
+I received my Master's Degree in Computer Science at [Rutgers University](https://www.rutgers.edu/) and my Bachelor's Degree in Computer Sciecne at [Univeristy of Liverpool](https://www.liverpool.ac.uk/), advised by Dr. [Igor Potatpov](https://scholar.google.com/citations?user=zdGjSYAAAAAJ&hl=en) and Dr. [Piotr Krysta](https://scholar.google.com/citations?user=Pe39BdUAAAAJ&hl=en).
 
 My reseach interests primarily focus on **generalization** under distributed and constrained scenarios, _e.g._, Continual Learning and Federated Learning.
