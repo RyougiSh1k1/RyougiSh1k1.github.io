@@ -16,7 +16,6 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -29,4 +28,4 @@ Hi there! I am a third-year Ph.D. student in the [Department of Electrical and C
 
 I received my Master's Degree in Computer Science at [Rutgers University](https://www.rutgers.edu/) and my Bachelor's Degree in Computer Sciecne at [Univeristy of Liverpool](https://www.liverpool.ac.uk/), advised by Dr. [Igot Potatpov](https://scholar.google.com/citations?user=zdGjSYAAAAAJ&hl=en) and Dr. [Piotr Krysta](https://scholar.google.com/citations?user=Pe39BdUAAAAJ&hl=en).
 
-My reseach interests primarily focus on **generalization** under distributed and constrained scenarios, *e.g.*, Continual Learning and Federated Learning.
+My reseach interests primarily focus on **generalization** under distributed and constrained scenarios, _e.g._, Continual Learning and Federated Learning.
