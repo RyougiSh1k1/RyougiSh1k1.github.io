@@ -28,4 +28,4 @@ Hi there! I am a third-year Ph.D. student in the [Department of Electrical and C
 
 I received my Master's Degree in Computer Science at [Rutgers University](https://www.rutgers.edu/) and my Bachelor's Degree in Computer Sciecne at [Univeristy of Liverpool](https://www.liverpool.ac.uk/), advised by Dr. [Igor Potatpov](https://scholar.google.com/citations?user=zdGjSYAAAAAJ&hl=en) and Dr. [Piotr Krysta](https://scholar.google.com/citations?user=Pe39BdUAAAAJ&hl=en).
 
-My reseach interests primarily focus on **generalization** under distributed and constrained scenarios, _e.g._, Continual Learning and Federated Learning.
+My reseach interests primarily focus on **generalization** under distributed and dynamic scenarios, _e.g._, Continual Learning and Federated Learning.
