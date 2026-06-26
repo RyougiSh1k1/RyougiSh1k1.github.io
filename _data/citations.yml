@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-26'
 papers:
   jXX2S_cAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: 'GFedCL: Graph-Based Federated Continual Learning with Spatial and Temporal Awareness'
     year: Unknown Year
   jXX2S_cAAAAJ:u-x6o8ySG0sC:
-    citations: 2
-    title: 'iSeal: Encrypted Fingerprinting for Reliable LLM Ownership Verification'
+    citations: 3
+    title: 'iseal: Encrypted fingerprinting for reliable llm ownership verification'
     year: '2026'
