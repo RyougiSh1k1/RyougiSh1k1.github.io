@@ -431,9 +431,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-on-federated-domain-adaptation-fedindex-federated-domain-adaptation-with-continuous-domain-indices-is-accepted-at-tmlr",
           title: 'Our work on Federated Domain Adaptation, “FedIndex: Federated Domain Adaptation with Continuous Domain...',
           description: "",
-          section: "News",},{id: "research-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "research-federated-domain-adaptation",
+          title: 'Federated Domain Adaptation',
+          description: "",
           section: "Research",handler: () => {
               window.location.href = "/research/1_research/";
             },},{id: "research-project-2",
@@ -461,9 +461,9 @@ ninja.data = [{
           description: "a project with no image",
           section: "Research",handler: () => {
               window.location.href = "/research/6_research/";
-            },},{id: "research-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "research-federated-continual-learning",
+          title: 'Federated Continual Learning',
+          description: "",
           section: "Research",handler: () => {
               window.location.href = "/research/7_research/";
             },},{id: "research-project-8",
