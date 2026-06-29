@@ -18,11 +18,19 @@
     }
   }
 
+  .list-group {
+    background-color: var(--global-bg-color);
+  }
+
+  .list-group-item,
+  .service-role {
+    color: var(--global-text-color) !important;
+    background-color: var(--global-bg-color) !important;
+    border-color: var(--global-divider-color) !important;
+  }
+
   .service-role {
     display: block;
-    color: var(--global-text-color);
-    background-color: transparent;
-    border-color: var(--global-divider-color);
   }
 
   .service-role-title {
