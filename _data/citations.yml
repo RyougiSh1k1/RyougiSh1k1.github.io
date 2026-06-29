@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-06-29'
 papers:
+  jXX2S_cAAAAJ:9yKSN-GCB0IC:
+    citations: 0
+    title: 'FedIndex: Federated Domain Adaptation with Continuous Domain Indices'
+    year: Unknown Year
   jXX2S_cAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: 'GFedCL: Graph-Based Federated Continual Learning with Spatial and Temporal Awareness'
