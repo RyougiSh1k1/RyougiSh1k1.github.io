@@ -6,7 +6,7 @@
   margin-top: 2rem;
 
   .list-group {
-    background-color: var(--global-bg-color);
+    background-color: var(--global-bg-color) !important;
   }
 
   .list-group-item,
@@ -23,7 +23,7 @@
   abbr.badge {
     display: inline-block;
     width: 7.5rem;
-    background-color: #cada42;
+    background-color: var(--global-theme-color);
     color: var(--global-card-bg-color) !important;
     margin-bottom: 0.5rem;
     text-align: center;
