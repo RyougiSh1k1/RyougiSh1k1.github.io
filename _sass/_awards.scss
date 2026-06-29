@@ -5,6 +5,17 @@
 .awards {
   margin-top: 2rem;
 
+  .list-group {
+    background-color: var(--global-bg-color);
+  }
+
+  .list-group-item,
+  .award-conference {
+    color: var(--global-text-color) !important;
+    background-color: var(--global-bg-color) !important;
+    border-color: var(--global-divider-color) !important;
+  }
+
   .award-conference {
     display: block;
   }
