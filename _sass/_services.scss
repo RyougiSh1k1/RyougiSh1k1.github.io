@@ -20,6 +20,9 @@
 
   .service-role {
     display: block;
+    color: var(--global-text-color);
+    background-color: transparent;
+    border-color: var(--global-divider-color);
   }
 
   .service-role-title {
