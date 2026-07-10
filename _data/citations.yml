@@ -1,14 +1,14 @@
 metadata:
-  last_updated: '2026-06-29'
+  last_updated: '2026-07-10'
 papers:
   jXX2S_cAAAAJ:9yKSN-GCB0IC:
     citations: 0
     title: 'FedIndex: Federated Domain Adaptation with Continuous Domain Indices'
-    year: Unknown Year
+    year: '2026'
   jXX2S_cAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: 'GFedCL: Graph-Based Federated Continual Learning with Spatial and Temporal Awareness'
-    year: Unknown Year
+    year: '2026'
   jXX2S_cAAAAJ:u-x6o8ySG0sC:
     citations: 3
     title: 'iseal: Encrypted fingerprinting for reliable llm ownership verification'
