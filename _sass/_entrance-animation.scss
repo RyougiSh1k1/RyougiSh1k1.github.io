@@ -9,7 +9,7 @@
   touch-action: none;
   z-index: 10000;
 
-  &--playing {
+  &--ready {
     display: flex;
   }
 
@@ -23,13 +23,13 @@
     display: block;
     max-height: 58vh;
     overflow: visible;
-    width: min(62vw, 360px);
+    width: min(54vw, 330px);
   }
 
   &__infinity,
   &__brow {
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
+    stroke-dasharray: var(--entrance-path-length, 500);
+    stroke-dashoffset: var(--entrance-path-length, 500);
   }
 
   &__eyes {
@@ -95,7 +95,7 @@
 @media (max-width: 575.98px) {
   .site-entrance__logo {
     max-height: 52vh;
-    width: min(78vw, 320px);
+    width: min(76vw, 300px);
   }
 }
 
