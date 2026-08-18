@@ -1,5 +1,4 @@
 .site-entrance {
-  --entrance-logo-primary: #dedcca;
   --entrance-logo-accent: #cada42;
   --entrance-logo-accent-dark: #aebd34;
 
@@ -34,10 +33,6 @@
   &__brow {
     stroke-dasharray: var(--entrance-path-length, 500);
     stroke-dashoffset: var(--entrance-path-length, 500);
-  }
-
-  &__infinity {
-    stroke: var(--entrance-logo-primary);
   }
 
   &__brow {
