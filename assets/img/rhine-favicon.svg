@@ -1,16 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 165" width="100%" height="100%" role="img" aria-label="Rhine logo">
-  <path
-    d="M 156 94
-       C 174 112 190 127 213 128
-       C 246 129 267 111 267 84
-       C 267 50 246 30 214 31
-       C 203 31 194 34 185 39"
-    fill="none"
-    stroke="#000"
-    stroke-width="25"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 -8 288 160"
+  width="100%"
+  height="100%"
+  role="img"
+  aria-labelledby="rhine-favicon-title rhine-favicon-desc"
+>
+  <title id="rhine-favicon-title">Rhine infinity owl logo</title>
+  <desc id="rhine-favicon-desc">A black infinity-shaped owl with plus and minus eyes, a folded kite beak, and brow feathers.</desc>
 
   <path
     d="M 132 70
@@ -18,26 +15,58 @@
        C 43 33 21 52 21 84
        C 21 115 43 133 74 131
        C 96 130 113 113 132 96
-       L 156 72"
+       L 156 70
+       C 163.617 62.784 170.913 55.889 178.209 50.153"
     fill="none"
-    stroke="#000"
+    stroke="#000000"
     stroke-width="25"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
   <path
-    d="M 132 70 L 156 94"
+    d="M 212 35
+       C 245 33 267 52 267 84
+       C 267 115 245 133 214 131
+       C 192 130 175 113 156 96"
     fill="none"
-    stroke="#000"
+    stroke="#000000"
     stroke-width="25"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
-  <g fill="#000">
+  <path
+    d="M 132 70 L 156 96"
+    fill="none"
+    stroke="#000000"
+    stroke-width="25"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <g fill="#000000">
     <rect x="51" y="78" width="42" height="12" rx="5"/>
     <rect x="66" y="62" width="12" height="44" rx="5"/>
-    <rect x="200" y="78" width="40" height="11" rx="5"/>
+    <rect x="195" y="78" width="42" height="12" rx="5"/>
+  </g>
+
+  <path d="M 144 106 L 158 118 L 144 137 L 130 118 Z" fill="#000000"/>
+  <path
+    d="M 136 118 L 144 127 L 152 118"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <g fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path
+      d="M 65 6
+         C 92 4 122 18 144 43
+         C 149.5 36.75 155.5 31.1875 161.828 26.391"
+    />
+    <path d="M 185.73 12.564 C 198.093 7.44 210.85 5.1 223 6"/>
   </g>
 </svg>
