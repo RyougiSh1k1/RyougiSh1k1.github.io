@@ -39,7 +39,7 @@ layout: default
           <div class="social profile-social">
             <div class="contact-icons">
               {% if site.data.socials.cv_pdf %}
-                <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" aria-label="CV">
+                <a href="{{ site.data.socials.cv_pdf | relative_url | bust_file_cache }}" title="CV" aria-label="CV">
                   <i class="ai ai-cv"></i>
                 </a>
               {% endif %}
