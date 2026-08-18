@@ -54,10 +54,10 @@
   </g>
 
   <!-- Folded kite beak -->
-  <g transform="translate(144 126.5) scale(1.25) translate(-144 -121.5)">
-    <path d="M 144 106 L 158 118 L 144 137 L 130 118 Z" fill="#cada42"/>
+  <g>
+    <path d="M 144 107.125 L 165 125.914 L 144 151 L 123 125.914 Z" fill="#cada42"/>
     <path
-      d="M 136 118 L 144 127 L 152 118"
+      d="M 132 126 L 144 139 L 156 126"
       fill="none"
       stroke="#aebd34"
       stroke-width="3"
