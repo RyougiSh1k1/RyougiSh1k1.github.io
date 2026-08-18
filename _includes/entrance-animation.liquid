@@ -75,25 +75,11 @@
 <script>
   (() => {
     const entrance = document.getElementById('site-entrance');
-    const storageKey = 'rhine-entrance-seen-v3';
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    let alreadySeen = false;
 
-    try {
-      alreadySeen = window.sessionStorage.getItem(storageKey) === 'true';
-    } catch (_error) {
-      alreadySeen = false;
-    }
-
-    if (reduceMotion || alreadySeen) {
+    if (reduceMotion) {
       entrance.remove();
       return;
-    }
-
-    try {
-      window.sessionStorage.setItem(storageKey, 'true');
-    } catch (_error) {
-      // The animation can still play when storage is unavailable.
     }
 
     entrance.querySelectorAll('.site-entrance__infinity, .site-entrance__brow').forEach((stroke) => {
