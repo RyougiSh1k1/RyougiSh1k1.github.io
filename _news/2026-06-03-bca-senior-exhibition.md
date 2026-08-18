@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was invited to attend the [Senior Exhibition](https://www.bergen.org/site/Default.aspx?PageID=4606) at [Bergen County Academies](https://www.bergen.org/Page/13), Dr. John Grieco Campus.
+I was invited to attend the [Senior Exhibition](https://bca-admissions.bergen.org/senior-experience.html) at [Bergen County Academies](https://bca-admissions.bergen.org/index.html), Dr. John Grieco Campus.
