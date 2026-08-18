@@ -14,7 +14,8 @@ let toggleThemeSetting = () => {
 
 // Change the theme setting and apply the theme.
 let setThemeSetting = (themeSetting) => {
-  localStorage.setItem("theme", themeSetting);
+  // Keep the choice within the current tab so a new visit starts at "system".
+  sessionStorage.setItem("theme", themeSetting);
 
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
 
@@ -268,7 +269,7 @@ let transTheme = () => {
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
+  let themeSetting = sessionStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
     themeSetting = "system";
   }
