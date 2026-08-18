@@ -1,0 +1,106 @@
+.site-entrance {
+  align-items: center;
+  background: #181c16;
+  display: none;
+  inset: 0;
+  justify-content: center;
+  opacity: 1;
+  position: fixed;
+  touch-action: none;
+  z-index: 10000;
+
+  &--playing {
+    display: flex;
+  }
+
+  &--leaving {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 500ms ease;
+  }
+
+  &__logo {
+    display: block;
+    max-height: 58vh;
+    overflow: visible;
+    width: min(62vw, 360px);
+  }
+
+  &__infinity,
+  &__brow {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+  }
+
+  &__eyes {
+    opacity: 0;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+
+  &__beak {
+    opacity: 0;
+    transform: translateY(-8px) scaleY(0.25);
+    transform-box: fill-box;
+    transform-origin: center top;
+  }
+
+  &--playing &__infinity {
+    animation: entrance-draw 720ms cubic-bezier(0.22, 0.8, 0.28, 1) forwards;
+  }
+
+  &--playing &__brow {
+    animation: entrance-draw 360ms ease-out 500ms forwards;
+  }
+
+  &--playing &__eyes {
+    animation: entrance-pop 320ms ease-out 620ms forwards;
+  }
+
+  &--playing &__beak {
+    animation: entrance-unfold 380ms cubic-bezier(0.2, 0.9, 0.3, 1.2) 720ms forwards;
+  }
+}
+
+@keyframes entrance-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes entrance-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.45);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes entrance-unfold {
+  to {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .site-entrance__logo {
+    max-height: 52vh;
+    width: min(78vw, 320px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-entrance {
+    display: none !important;
+  }
+}
