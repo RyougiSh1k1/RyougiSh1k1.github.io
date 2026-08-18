@@ -3,25 +3,11 @@
   </script> </head> <body class="fixed-top-nav "> <div id="site-entrance" class="site-entrance" aria-hidden="true"> <svg class="site-entrance__logo" viewbox="0 -8 288 160" focusable="false"> <path class="site-entrance__infinity" d="M 132 70 C 113 52 96 36 76 35 C 43 33 21 52 21 84 C 21 115 43 133 74 131 C 96 130 113 113 132 96 L 156 70 C 163.617 62.784 170.913 55.889 178.209 50.153" fill="none" stroke="#dedcca" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"></path> <path class="site-entrance__infinity" d="M 212 35 C 245 33 267 52 267 84 C 267 115 245 133 214 131 C 192 130 175 113 156 96" fill="none" stroke="#dedcca" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"></path> <path class="site-entrance__infinity" d="M 132 70 L 156 96" fill="none" stroke="#dedcca" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"></path> <g class="site-entrance__eyes" fill="#cada42"> <rect x="51" y="78" width="42" height="12" rx="5"></rect> <rect x="66" y="62" width="12" height="44" rx="5"></rect> <rect x="195" y="78" width="42" height="12" rx="5"></rect> </g> <g class="site-entrance__beak"> <path d="M 144 107.125 L 165 125.914 L 144 151 L 123 125.914 Z" fill="#cada42"></path> <path d="M 132 126 L 144 139 L 156 126" fill="none" stroke="#aebd34" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path> </g> <g fill="none" stroke="#cada42" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"> <path class="site-entrance__brow" d="M 65 6 C 92 4 122 18 144 43 C 149.5 36.75 155.5 31.1875 161.828 26.391"></path> <path class="site-entrance__brow" d="M 185.73 12.564 C 198.093 7.44 210.85 5.1 223 6"></path> </g> </svg> </div> <script>
   (() => {
     const entrance = document.getElementById('site-entrance');
-    const storageKey = 'rhine-entrance-seen-v3';
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    let alreadySeen = false;
 
-    try {
-      alreadySeen = window.sessionStorage.getItem(storageKey) === 'true';
-    } catch (_error) {
-      alreadySeen = false;
-    }
-
-    if (reduceMotion || alreadySeen) {
+    if (reduceMotion) {
       entrance.remove();
       return;
-    }
-
-    try {
-      window.sessionStorage.setItem(storageKey, 'true');
-    } catch (_error) {
-      // The animation can still play when storage is unavailable.
     }
 
     entrance.querySelectorAll('.site-entrance__infinity, .site-entrance__brow').forEach((stroke) => {
