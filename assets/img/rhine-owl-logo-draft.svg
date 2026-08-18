@@ -54,15 +54,17 @@
   </g>
 
   <!-- Folded kite beak -->
-  <path d="M 144 106 L 158 118 L 144 137 L 130 118 Z" fill="#cada42"/>
-  <path
-    d="M 136 118 L 144 127 L 152 118"
-    fill="none"
-    stroke="#aebd34"
-    stroke-width="3"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+  <g transform="translate(144 126.5) scale(1.25) translate(-144 -121.5)">
+    <path d="M 144 106 L 158 118 L 144 137 L 130 118 Z" fill="#cada42"/>
+    <path
+      d="M 136 118 L 144 127 L 152 118"
+      fill="none"
+      stroke="#aebd34"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
 
   <!-- Brow feathers -->
   <g
