@@ -1,6 +1,10 @@
 .site-entrance {
+  --entrance-logo-primary: #1c1c1d;
+  --entrance-logo-accent: #cada42;
+  --entrance-logo-accent-dark: #aebd34;
+
   align-items: center;
-  background: #181c16;
+  background: var(--global-bg-color, #fff);
   display: none;
   inset: 0;
   justify-content: center;
@@ -32,7 +36,16 @@
     stroke-dashoffset: var(--entrance-path-length, 500);
   }
 
+  &__infinity {
+    stroke: var(--entrance-logo-primary);
+  }
+
+  &__brow {
+    stroke: var(--entrance-logo-accent);
+  }
+
   &__eyes {
+    fill: var(--entrance-logo-accent);
     opacity: 0;
     transform-box: fill-box;
     transform-origin: center;
@@ -43,6 +56,14 @@
     transform: translateY(-8px) scaleY(0.25);
     transform-box: fill-box;
     transform-origin: center top;
+
+    > path:first-child {
+      fill: var(--entrance-logo-accent);
+    }
+
+    > path:last-child {
+      stroke: var(--entrance-logo-accent-dark);
+    }
   }
 
   &--playing &__infinity {
@@ -60,6 +81,10 @@
   &--playing &__beak {
     animation: entrance-unfold 380ms cubic-bezier(0.2, 0.9, 0.3, 1.2) 720ms forwards;
   }
+}
+
+html[data-theme="dark"] .site-entrance {
+  --entrance-logo-primary: #dedcca;
 }
 
 @keyframes entrance-draw {
