@@ -101,7 +101,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-on-federated-domain-adaptation-fedindex-federated-domain-adaptation-with-continuous-domain-indices-is-accepted-at-tmlr",
           title: 'Our work on Federated Domain Adaptation, “FedIndex: Federated Domain Adaptation with Continuous Domain...',
           description: "",
-          section: "News",},{id: "news-our-paper-breastg-fcl-graph-conditioned-federated-continual-learning-for-breast-cancer-radiogenomics-has-been-accepted-at-ieee-healthcom-2026-paper-code",
+          section: "News",},{id: "news-our-paper-breastg-fcl-graph-conditioned-federated-continual-learning-for-breast-cancer-radiogenomics-has-been-accepted-at-ieee-healthcom-2026",
           title: 'Our paper “BreastG-FCL: Graph-Conditioned Federated Continual Learning for Breast Cancer Radiogenomics” has been...',
           description: "",
           section: "News",},{id: "news-our-paper-bayes-pfcl-bayesian-personalized-federated-continual-learning-has-been-accepted-at-neurips-2026",
