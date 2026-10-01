@@ -45,6 +45,10 @@
   - firstname: ["Hao"]
     url: http://www.wanghao.in/index.html
 
+"wang@uiuc":
+  - firstname: ["Hao"]
+    url: https://www.wanghao.in/index.html
+
 "wang":
   - firstname: ["Hao"]
     url: https://intellisys.haow.ca/haowang/
