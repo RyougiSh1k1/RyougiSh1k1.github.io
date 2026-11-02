@@ -69,6 +69,52 @@
 
       .title {
         font-weight: bolder;
+
+        &.title-with-award {
+          display: flex;
+          align-items: flex-start;
+          gap: 0.5rem;
+
+          > span {
+            flex: 1;
+            min-width: 0;
+            text-wrap: balance;
+          }
+        }
+      }
+
+      .award-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        flex: 0 0 auto;
+        margin-top: 0.125rem;
+        padding: 0.15rem 0.6rem;
+        border: 1px solid var(--global-theme-color);
+        border-radius: 999px;
+        background-color: var(--global-theme-color);
+        color: v.$black-color;
+        font-family: inherit;
+        font-size: 0.75rem;
+        font-weight: 600;
+        line-height: 1.5;
+        vertical-align: middle;
+        white-space: nowrap;
+        cursor: pointer;
+
+        &:hover,
+        &[aria-expanded="true"] {
+          filter: brightness(0.95);
+        }
+
+        &:focus-visible {
+          outline: 2px solid var(--global-text-color);
+          outline-offset: 3px;
+        }
+
+        @media (pointer: coarse) {
+          min-height: 44px;
+        }
       }
 
       .author {
@@ -178,6 +224,17 @@
     }
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
+    }
+    div.award.hidden.award-badge-details {
+      border: 0;
+      border-radius: 0.25rem;
+      background-color: rgba(v.$rhine-green-color, 0.1);
+      text-align: left;
+
+      &.open {
+        margin: 0.5rem 0;
+        border-left: 3px solid var(--global-theme-color);
+      }
     }
   }
 }

@@ -1,19 +1,29 @@
 $(document).ready(function () {
+  function syncAwardBadge(entry) {
+    const panel = entry.find(".award-badge-details");
+    const expanded = panel.hasClass("open");
+    entry.find("button.award-badge").attr("aria-expanded", String(expanded));
+    panel.prop("hidden", !expanded);
+  }
+
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    syncAwardBadge($(this).parent().parent());
   });
-  $("a.award").click(function () {
+  $("a.award, button.award-badge").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    syncAwardBadge($(this).parent().parent());
   });
   $("a.bibtex").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+    syncAwardBadge($(this).parent().parent());
   });
   $("a").removeClass("waves-effect waves-light");
 
