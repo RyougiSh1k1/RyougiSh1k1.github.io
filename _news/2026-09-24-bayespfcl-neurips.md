@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Our work on Personalized Federated Continual Learning,** _"Bayes-pFCL: Bayesian Personalized Federated Continual Learning"_ **, is accepted at _NeurIPS 2026_**.
+Our work on Personalized Federated Continual Learning, _"Bayes-pFCL: Bayesian Personalized Federated Continual Learning"_, is accepted at **NeurIPS 2026**.

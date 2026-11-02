@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Our work on Federated Continual Learning for Breast Cancer Radiogenomics,** _"BreastG-FCL: Graph-Conditioned Federated Continual Learning for Breast Cancer Radiogenomics"_ **, is accepted at _IEEE HealthCom 2026_**.
+Our work on Federated Continual Learning for Breast Cancer Radiogenomics, _"BreastG-FCL: Graph-Conditioned Federated Continual Learning for Breast Cancer Radiogenomics"_, is accepted at **IEEE HealthCom 2026**.
