@@ -4,7 +4,11 @@ permalink: /award/
 title: Award
 nav: true
 nav_order: 6
-conference_awards:
+award_groups:
+  - abbr: Stevens
+    awards:
+      - name: Graduate Conference Funding for NeurIPS (up to $1,000)
+        year: 2026
   - abbr: ICML
     awards:
       - name: Silver Reviewer Award
@@ -13,11 +17,11 @@ conference_awards:
 
 <div class="awards">
   <ul class="card-text font-weight-light list-group list-group-flush">
-    {% for conference in page.conference_awards %}
+    {% for group in page.award_groups %}
       <li class="list-group-item award-conference">
-        <abbr class="badge rounded">{{ conference.abbr }}</abbr>
+        <abbr class="badge rounded">{{ group.abbr }}</abbr>
         <ul class="award-records">
-          {% for award in conference.awards %}
+          {% for award in group.awards %}
             <li class="award-record">{{ award.name }}, {{ award.year }}</li>
           {% endfor %}
         </ul>

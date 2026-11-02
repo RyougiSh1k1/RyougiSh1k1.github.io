@@ -19,13 +19,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check for a structured CV source
+        id: cv-source
+        run: |
+          if [[ -f _data/cv.yml || -f _data/cv.yaml ]]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "No structured CV source; keeping the existing personal PDF."
+          fi
       - uses: actions/setup-python@v5
+        if: steps.cv-source.outputs.available == 'true'
         with:
           python-version: "3.12"
       - name: Install RenderCV
+        if: steps.cv-source.outputs.available == 'true'
         run: |
           pip install -r requirements.txt
       - name: RenderCV
+        if: steps.cv-source.outputs.available == 'true'
         run: |
           cv_file=$(find _data  -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
           if [ -z "$cv_file" ]; then
@@ -45,11 +57,13 @@ jobs:
           rendercv render $cv_file --settings $settings
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
+        if: steps.cv-source.outputs.available == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: RenderCV Output
           path: assets/rendercv/rendercv_output
       - name: Push the changes
+        if: steps.cv-source.outputs.available == 'true'
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
