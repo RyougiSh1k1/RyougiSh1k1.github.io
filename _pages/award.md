@@ -5,6 +5,11 @@ title: Award
 nav: true
 nav_order: 6
 award_groups:
+  - abbr: TMLR
+    awards:
+      - name: J2C Certification (~10%)
+        year: 2026
+        note: TMLR expects approximately 10% of accepted papers to receive this certification.
   - abbr: Stevens
     awards:
       - name: Graduate Conference Funding for NeurIPS (up to $1,000)
@@ -22,7 +27,12 @@ award_groups:
         <abbr class="badge rounded">{{ group.abbr }}</abbr>
         <ul class="award-records">
           {% for award in group.awards %}
-            <li class="award-record">{{ award.name }}, {{ award.year }}</li>
+            <li class="award-record">
+              {{ award.name }}, {{ award.year }}
+              {% if award.note %}
+                <div class="small">{{ award.note }}</div>
+              {% endif %}
+            </li>
           {% endfor %}
         </ul>
       </li>
