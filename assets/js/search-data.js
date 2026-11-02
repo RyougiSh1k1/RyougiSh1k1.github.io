@@ -62,28 +62,6 @@ ninja.data = [{
             window.location.href = "/blog/2026/academic-writing/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -109,6 +87,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-was-invited-to-present-our-paper-breastg-fcl-in-the-distinguished-invited-papers-track-at-ieee-healthcom-2026-in-new-york-city",
           title: 'I was invited to present our paper, BreastG-FCL, in the Distinguished Invited Papers...',
+          description: "",
+          section: "News",},{id: "news-i-was-awarded-graduate-conference-funding-up-to-1-000-from-stevens-institute-of-technology-to-support-my-presentation-at-neurips-2026",
+          title: 'I was awarded Graduate Conference Funding (up to $1,000) from Stevens Institute of...',
           description: "",
           section: "News",},{id: "research-federated-domain-adaptation",
           title: 'Federated Domain Adaptation',
