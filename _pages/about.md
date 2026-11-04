@@ -29,3 +29,5 @@ Hi there! I am a third-year Ph.D. candidate in the [Department of Electrical and
 I received my Master's Degree in Computer Science at [Rutgers University](https://www.rutgers.edu/) and my Bachelor's Degree in Computer Science at [University of Liverpool](https://www.liverpool.ac.uk/), advised by Dr. [Igor Potapov](https://scholar.google.com/citations?user=zdGjSYAAAAAJ&hl=en) and Dr. [Piotr Krysta](https://scholar.google.com/citations?user=Pe39BdUAAAAJ&hl=en).
 
 My research interests primarily focus on **generalization** under distributed and dynamic scenarios, _e.g._, Continual Learning and Federated Learning.
+
+I am also an **open-source contributor** to [NVIDIA FLARE (NVFlare)](https://github.com/NVIDIA/NVFlare). My [merged contribution](https://github.com/NVIDIA/NVFlare/pull/5382) adds BreastG-FCL, a graph-conditioned federated continual learning research example built with the NVFlare Collab API.
