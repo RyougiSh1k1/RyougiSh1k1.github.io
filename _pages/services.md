@@ -39,5 +39,22 @@ reviewer_conferences:
 
   <section class="service-section">
     <h2>Other</h2>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item service-role">
+        <div class="service-role-title">- Open-Source Contributor</div>
+        <ul class="service-records">
+          <li class="d-block">
+            <div class="service-record">
+              <a href="https://github.com/NVIDIA/NVFlare">NVIDIA FLARE (NVFlare)</a>
+              <span class="service-year">2026</span>
+            </div>
+            <p class="mb-0">
+              Contributed BreastG-FCL, a graph-conditioned federated continual learning research example built with the NVFlare Collab API
+              (<a href="https://github.com/NVIDIA/NVFlare/pull/5382">merged PR #5382</a>).
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </section>
 </div>
