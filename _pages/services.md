@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 reviewer_conferences:
   - abbr: ICML
-    years: [2025, 2026]
+    years: [2025, 2026, 2027]
   - abbr: ICLR
     years: [2025, 2026]
   - abbr: NeurIPS
