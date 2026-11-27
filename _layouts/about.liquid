@@ -81,6 +81,17 @@ layout: default
                   <i class="fa-brands fa-github"></i>
                 </a>
               {% endif %}
+              {% if site.data.socials.linkedin_username %}
+                <a
+                  href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}/"
+                  title="LinkedIn"
+                  aria-label="LinkedIn"
+                  rel="external nofollow noopener"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              {% endif %}
             </div>
 
             {% if site.contact_note %}
