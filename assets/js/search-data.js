@@ -171,6 +171,13 @@ ninja.data = [{
           window.open("https://github.com/RyougiSh1k1", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/qingyang-yu-534849230", "_blank");
+        },
+      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
